@@ -29145,5 +29145,249 @@
       "album_cover": "https://i.scdn.co/image/ab67616d0000b273ca15942c726ec9c39796435e",
       "artist_image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a"
     }
+  },
+  {
+    "mode": "current",
+    "title": "CURRENT (30-Day Trend)",
+    "date": "2025-11-05T02:42:40.890197+00:00",
+    "lineup": [
+      {
+        "track": "LYFE PARTY",
+        "title": "LYFE PARTY",
+        "artist": "Yeat",
+        "position": "CF",
+        "score": 2.5024306687663826,
+        "popularity": 52,
+        "track_id": "32r2Ve2nV1v0QxvxuQ4niY",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b2738fd4ee592690d0a94caa0045",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5ebbcb7b5ea25215172d09d4e2e"
+      },
+      {
+        "track": "Nightcore",
+        "title": "Nightcore",
+        "artist": "Ken Carson",
+        "position": "SS",
+        "score": 1.4672654406388512,
+        "popularity": 54,
+        "track_id": "5wotbFovMedDXEMKC4DrHf",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b273bc2fbaa359030887a9a60d7e",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc"
+      },
+      {
+        "track": "OLYMPIAN",
+        "title": "OLYMPIAN",
+        "artist": "Playboi Carti",
+        "position": "RF",
+        "score": 1.2271534482255175,
+        "popularity": 71,
+        "track_id": "4uoADk7q83CHvXHW3k1etM",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a"
+      },
+      {
+        "track": "jeans",
+        "title": "jeans",
+        "artist": "2hollis",
+        "position": "1B",
+        "score": 0.9918516956189647,
+        "popularity": 70,
+        "track_id": "6C2nVSSeXNqfoY8t6tliZ4",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b273b8362432f72c45d2b6bf08d8",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eba1bbb3fd6dbbdfb248f0948d"
+      },
+      {
+        "track": "Fell In Love (with Ken Carson)",
+        "title": "Fell In Love (with Ken Carson)",
+        "artist": "Lil Tecca, Ken Carson",
+        "position": "2B",
+        "score": 0.9262744787845516,
+        "popularity": 64,
+        "track_id": "302EsF6DE70LfngVNLlqo5",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b273c4e6adea69105e6b6e214b96",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eb5433d9d8519ad0635d8bd869"
+      },
+      {
+        "track": "Aye (feat. Travis Scott)",
+        "title": "Aye (feat. Travis Scott)",
+        "artist": "Lil Uzi Vert, Travis Scott",
+        "position": "3B",
+        "score": 0.8862626874342455,
+        "popularity": 61,
+        "track_id": "2Hc1LaV6bzFil3dE71eORA",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b2736f01d9e9df05d4bc6c022343",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eba8ce348f34f18241d3249fa9"
+      },
+      {
+        "track": "PIXELATED KISSES",
+        "title": "PIXELATED KISSES",
+        "artist": "Joji",
+        "position": "C",
+        "score": 0.8404901543582878,
+        "popularity": 87,
+        "track_id": "2OZVskV28xxJjjhQqKTLSg",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b2734a66ee1a8cdd72378eb56765",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eb6e69601c22184c630a2d5e71"
+      },
+      {
+        "track": "DOG HOUSE (feat. Julia Wolf & Yeat)",
+        "title": "DOG HOUSE (feat. Julia Wolf & Yeat)",
+        "artist": "Drake, Julia Wolf, Yeat",
+        "position": "LF",
+        "score": 0.7699477951073579,
+        "popularity": 76,
+        "track_id": "47Sa7pC00F7D5Z0i7HC5la",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b2739c2ab979bbe25f3d9e21f698",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9"
+      },
+      {
+        "track": "Figure It Out",
+        "title": "Figure It Out",
+        "artist": "ian",
+        "position": "P",
+        "score": 0.7639955591438607,
+        "popularity": 42,
+        "track_id": "1M2Fk3MPiaG0Rbdze5h3la",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b273131889184126376a2e289d56",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5ebfc581edb6be35aef436062f8"
+      }
+    ],
+    "team_profile": {
+      "label": "Super Nova",
+      "avg_artist_popularity": 78.1,
+      "avg_artist_followers": 12149186
+    },
+    "star_player": {
+      "track": "Nightcore",
+      "title": "Nightcore",
+      "artist": "Ken Carson",
+      "position": "SS",
+      "score": 1.4672654406388512,
+      "popularity": 54,
+      "track_id": "5wotbFovMedDXEMKC4DrHf",
+      "album_cover": "https://i.scdn.co/image/ab67616d0000b273bc2fbaa359030887a9a60d7e",
+      "artist_image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc"
+    }
+  },
+  {
+    "mode": "current",
+    "title": "CURRENT (30-Day Trend)",
+    "date": "2025-11-07T18:55:52.966592+00:00",
+    "lineup": [
+      {
+        "track": "Slime Bidness",
+        "title": "Slime Bidness",
+        "artist": "Nine Vicious",
+        "position": "CF",
+        "score": 2.391123288063235,
+        "popularity": 46,
+        "track_id": "4iNqOoA3gfO8HmrQjEB16J",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b273ebffea431e735484aa3dc28f",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5ebb4cbd0f9f8221fa92c6c8031"
+      },
+      {
+        "track": "LYFE PARTY",
+        "title": "LYFE PARTY",
+        "artist": "Yeat",
+        "position": "SS",
+        "score": 2.001114226744326,
+        "popularity": 52,
+        "track_id": "32r2Ve2nV1v0QxvxuQ4niY",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b2738fd4ee592690d0a94caa0045",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5ebbcb7b5ea25215172d09d4e2e"
+      },
+      {
+        "track": "Nightcore",
+        "title": "Nightcore",
+        "artist": "Ken Carson",
+        "position": "RF",
+        "score": 1.9741574351482798,
+        "popularity": 54,
+        "track_id": "5wotbFovMedDXEMKC4DrHf",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b273bc2fbaa359030887a9a60d7e",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc"
+      },
+      {
+        "track": "OLYMPIAN",
+        "title": "OLYMPIAN",
+        "artist": "Playboi Carti",
+        "position": "1B",
+        "score": 1.194700590374529,
+        "popularity": 71,
+        "track_id": "4uoADk7q83CHvXHW3k1etM",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a"
+      },
+      {
+        "track": "Fell In Love (with Ken Carson)",
+        "title": "Fell In Love (with Ken Carson)",
+        "artist": "Lil Tecca, Ken Carson",
+        "position": "2B",
+        "score": 1.1492709646904542,
+        "popularity": 64,
+        "track_id": "302EsF6DE70LfngVNLlqo5",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b273c4e6adea69105e6b6e214b96",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eb5433d9d8519ad0635d8bd869"
+      },
+      {
+        "track": "jeans",
+        "title": "jeans",
+        "artist": "2hollis",
+        "position": "3B",
+        "score": 0.9839822257742148,
+        "popularity": 70,
+        "track_id": "6C2nVSSeXNqfoY8t6tliZ4",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b273b8362432f72c45d2b6bf08d8",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eba1bbb3fd6dbbdfb248f0948d"
+      },
+      {
+        "track": "lifting",
+        "title": "lifting",
+        "artist": "nm",
+        "position": "C",
+        "score": 0.900115221997185,
+        "popularity": 4,
+        "track_id": "4bar5SFE4IsJjnvBHSs1yF",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b2736469f4357c1eba88f9961bdc",
+        "artist_image": "https://i.scdn.co/image/ab67616d0000b273d48e1922a80618802312de17"
+      },
+      {
+        "track": "Aye (feat. Travis Scott)",
+        "title": "Aye (feat. Travis Scott)",
+        "artist": "Lil Uzi Vert, Travis Scott",
+        "position": "LF",
+        "score": 0.865645531312432,
+        "popularity": 61,
+        "track_id": "2Hc1LaV6bzFil3dE71eORA",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b2736f01d9e9df05d4bc6c022343",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eba8ce348f34f18241d3249fa9"
+      },
+      {
+        "track": "Belt Boyz",
+        "title": "Belt Boyz",
+        "artist": "SahBabii",
+        "position": "P",
+        "score": 0.835506786743451,
+        "popularity": 38,
+        "track_id": "0DE6Ij8or2oj4l13a7w64q",
+        "album_cover": "https://i.scdn.co/image/ab67616d0000b2738a93da98b40ebfe5d9b6f5a9",
+        "artist_image": "https://i.scdn.co/image/ab6761610000e5eb6a379e26fd4999a0b9bc9baa"
+      }
+    ],
+    "team_profile": {
+      "label": "Star Studded",
+      "avg_artist_popularity": 67.7,
+      "avg_artist_followers": 6942252
+    },
+    "star_player": {
+      "track": "LYFE PARTY",
+      "title": "LYFE PARTY",
+      "artist": "Yeat",
+      "position": "SS",
+      "score": 2.001114226744326,
+      "popularity": 52,
+      "track_id": "32r2Ve2nV1v0QxvxuQ4niY",
+      "album_cover": "https://i.scdn.co/image/ab67616d0000b2738fd4ee592690d0a94caa0045",
+      "artist_image": "https://i.scdn.co/image/ab6761610000e5ebbcb7b5ea25215172d09d4e2e"
+    }
   }
 ]

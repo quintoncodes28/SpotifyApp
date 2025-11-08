@@ -1,0 +1,32 @@
+/* Tailwind v4 import (must be first) */
+@import "tailwindcss";
+
+/* Design tokens */
+@import "../styles/tokens.css";
+
+/* Base tweaks */
+html, body { height: 100%; }
+body {
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Helpful resets */
+* { box-sizing: border-box; }
+img, video { display: block; max-width: 100%; height: auto; }
+h1,h2,h3,h4,p { margin: 0; }
+
+/* Star glow (used for the star player badge/marker) */
+@keyframes starPulse {
+  0%   { transform: scale(1);   filter: drop-shadow(0 0 0px rgba(255,215,0,0)); }
+  50%  { transform: scale(1.04); filter: drop-shadow(0 0 10px rgba(255,215,0,0.75)); }
+  100% { transform: scale(1);   filter: drop-shadow(0 0 0px rgba(255,215,0,0)); }
+}
+.star-glow { animation: starPulse 2.2s ease-in-out infinite; }
+
+/* Print-friendly card */
+@media print {
+  body { background: #fff; color: #000; }
+}

@@ -1,0 +1,18 @@
+:root {
+  /* Dark surfaces + text */
+  --bg: 3 7 18;
+  --card: 12 12 12;
+  --muted: 156 163 175;
+  --text: 255 255 255;
+
+  /* Brand accents */
+  --brand-current: 34 197 94;   /* green */
+  --brand-legend: 6 182 212;    /* cyan */
+
+  /* Default accent = current */
+  --accent: var(--brand-current);
+}
+
+/* Switch accent by design mode */
+html[data-design="current"] { --accent: var(--brand-current); }
+html[data-design="legends"] { --accent: var(--brand-legend); }
