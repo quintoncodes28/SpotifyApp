@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    // Don’t fail the production build on ESLint errors
+    // ✅ This tells Vercel to skip ESLint checks during builds
     ignoreDuringBuilds: true,
   },
 };
