@@ -66,7 +66,7 @@ def get_oauth() -> SpotifyOAuth:
             "user-read-recently-played user-library-read user-top-read",
         ),
         open_browser=False,
-        cache_path=str(BASE_DIR / ".spotipy-cache"),
+        cache_path=os.getenv("SPOTIPY_CACHE_PATH"),
         show_dialog=False,
         requests_timeout=30,
     )
