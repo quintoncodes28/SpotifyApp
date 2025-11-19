@@ -12,6 +12,15 @@ type Mode = "current" | "alltime";
 // 🔧 use your backend host/port by default
 const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://127.0.0.1:1234";
 
+React.useEffect(() => {
+  fetch(`${API_BASE}/healthz`, { cache: "no-store" }).catch(() => {});
+}, []);
+
+// wake the backend so /login is instant
+React.useEffect(() => {
+  fetch(`${API_BASE}/healthz`, { cache: "no-store" }).catch(() => {});
+}, []);
+
 async function fetchLineup(mode: Mode) {
   const res = await fetch(`${API_BASE}/lineup/${mode}`, { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load lineup: ${res.status}`);
