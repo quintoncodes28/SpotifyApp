@@ -2,7 +2,7 @@
 
 Lineuptify turns your Spotify listening history into a **9-player baseball lineup**.
 
-It pulls your recent plays, scores each track with a custom “HIv2” index, and places songs into field positions based on performance – like a sabermetrics view of your music.
+It pulls your recent plays, scores each track with a custom “HIv2” index, and places songs into field positions based on performance — like a sabermetrics view of your music.
 
 ---
 
@@ -23,15 +23,15 @@ Backend (FastAPI on Render):
 
 ### **Frontend**
 - Next.js (App Router, TypeScript)
-- React (hooks + dynamic components)
-- Custom baseball field + lineup card visualization
-- TailwindCSS
+- React hooks
+- ShadCN UI components
+- Custom baseball field + lineup card rendering
 - Deployed on Vercel
 
 ### **Backend**
 - FastAPI (Python)
-- Spotipy (Spotify Web API)
-- SQLite (local DB)
+- Spotipy (Spotify API)
+- SQLite (analytics & history storage)
 - Custom ingestion script (`logger_recent.py`)
 - Deployed on Render
 
@@ -40,56 +40,59 @@ Backend (FastAPI on Render):
 ## 🧠 How It Works
 
 ### 1. **Spotify Login (OAuth)**
-- User clicks **Sign in with Spotify**
-- Backend `/login` → redirects to Spotify Accounts
-- Spotify redirects back to `/callback` with an auth code
+1. User clicks **Sign in with Spotify**
+2. Redirects to Spotify's login page
+3. Spotify sends user back to `/callback` with an authorization code
+4. The backend exchanges the code for tokens
 
 ### 2. **Data Ingestion (`logger_recent.py`)**
-Fetches:
+Fetches & stores:
 - recently played tracks  
-- full track metadata  
-- artist data (popularity, followers, genres)  
-- album data  
+- artists  
+- albums  
+- track → artist mappings  
 - saved-track flags  
 
-Then stores everything into `data.db`.
+Writes everything into **SQLite (`data.db`)**.
 
-### 3. **HIv2 Scoring System**
-Weighted model combining:
-- 30-day play counts  
-- 7-day momentum  
-- track popularity  
-- artist popularity  
-- recency  
-- saved-track affinity  
-- diversity  
+### 3. **HIv2 Scoring**
+Weighted index using:
+- 30-day play count (35%)
+- 7-day momentum (20%)
+- track popularity (15%)
+- artist clout (10%)
+- recency (10%)
+- saved-track affinity (7%)
+- diversity (3%)
 
-Produces a single “sabermetrics-style” score for each track.
+Creates one score per track.
 
 ### 4. **Lineup Builder**
-Turns the highest scoring tracks into a baseball lineup:
+Assigns top-scoring tracks to baseball positions:
 - CF, LF, RF  
 - SS, 2B, 3B, 1B  
 - C, P  
 
-Returns a JSON response that includes:
-- lineup  
-- star player  
-- team profile  
-- snapshot timestamp  
+Returns:
+- lineup[]
+- star player
+- team profile metadata
+- snapshot timestamp
 
-### 5. **Frontend Presentation**
-- Dynamic lineup card  
-- Baseball field player placement with icons  
-- Star player highlight  
-- “Current” vs “Legends” toggle  
+### 5. **Frontend Visualization**
+- Baseball-style lineup card
+- Actual baseball field with player avatars
+- Current vs Legends mode
+- Refresh button (reruns logger)
 
 ---
 
 ## 🔐 Environment Variables
 
-### **Backend – `.env.example`**
+Environment variables are **not committed**.  
+Below are example templates:
 
+### **Backend — `.env.example`**
 ```env
 SPOTIPY_CLIENT_ID=your_spotify_client_id
 SPOTIPY_CLIENT_SECRET=your_spotify_client_secret
@@ -98,8 +101,7 @@ SPOTIPY_REDIRECT_URI=https://lineuptify.onrender.com/callback
 FRONTEND_URL=https://spotify-app-six-nu.vercel.app
 ```
 
-### **Frontend – `.env.local.example`**
-
+### **Frontend — `.env.local.example`**
 ```env
 NEXT_PUBLIC_API_BASE=https://lineuptify.onrender.com
 ```
@@ -108,8 +110,7 @@ NEXT_PUBLIC_API_BASE=https://lineuptify.onrender.com
 
 ## 🧪 Local Development
 
-### **Backend**
-
+### Backend
 ```bash
 cd backend
 python -m venv .venv
@@ -118,38 +119,38 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-### **Frontend**
-
+### Frontend
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
+Open:  
+http://localhost:3000
+
 ---
 
 ## 📌 Status / Future Work
 
-Current version:
-- Fully functional **single-user full-stack demo**
-- End-to-end OAuth + data ingestion + scoring + UI
-
-Possible future improvements:
-- Multi-user support with secure per-user data  
-- Background ingestion (Celery, RQ, or cron workers)  
-- User accounts with persistent profiles  
-- Sharable lineup pages (e.g., `/u/username/lineup`)  
-- Animated transitions + improved UI polish  
-- Export lineup as an image  
+- ✅ Full-stack working demo  
+- 🔄 Currently single-user only  
+- 🚀 Future upgrade: multi-user with per-user DB  
+- 🎨 Future UI upgrades: animations, sharing, stats dashboard  
+- 📱 Possible mobile version  
 
 ---
 
-## 👤 About the Developer
+## 👨‍💻 About the Developer
 
 Built by **Quinton Sterling** —  
-Baseball player, data/tech major, and full-stack builder.
-
-If you’d like to connect:  
-**https://www.linkedin.com/in/quinton-sterling/**
+Student athlete, data/tech builder, and future MLB analytics engineer.  
+Focused on creating clean, production-quality projects that blend:  
+**data, sports, and modern software engineering**.
 
 ---
+
+## ⭐ If you like this project…
+Give the repo a **star** on GitHub 🌟  
+It helps recruiters see it!
+
