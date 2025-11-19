@@ -1,4 +1,4 @@
-# Lineuptify – Spotify Lineup Web App ⚾🎧
+# Lineuptify – Spotify Lineup Web App 
 
 Lineuptify turns your Spotify listening history into a **9-player baseball lineup**.
 
@@ -6,7 +6,7 @@ It pulls your recent plays, scores each track with a custom “HIv2” index, an
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 Frontend (Next.js on Vercel):  
 **https://spotify-app-six-nu.vercel.app**
@@ -19,7 +19,7 @@ Backend (FastAPI on Render):
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 ### **Frontend**
 - Next.js (App Router, TypeScript)
@@ -37,7 +37,7 @@ Backend (FastAPI on Render):
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### 1. **Spotify Login (OAuth)**
 1. User clicks **Sign in with Spotify**
@@ -87,7 +87,7 @@ Returns:
 
 ---
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 Environment variables are **not committed**.  
 Below are example templates:
@@ -108,7 +108,7 @@ NEXT_PUBLIC_API_BASE=https://lineuptify.onrender.com
 
 ---
 
-## 🧪 Local Development
+##  Local Development
 
 ### Backend
 ```bash
@@ -131,17 +131,17 @@ http://localhost:3000
 
 ---
 
-## 📌 Status / Future Work
+## Status / Future Work
 
-- ✅ Full-stack working demo  
-- 🔄 Currently single-user only  
-- 🚀 Future upgrade: multi-user with per-user DB  
-- 🎨 Future UI upgrades: animations, sharing, stats dashboard  
-- 📱 Possible mobile version  
+-  Full-stack working demo  
+-  Currently single-user only  
+-  Future upgrade: multi-user with per-user DB  
+-  Future UI upgrades: animations, sharing, stats dashboard  
+-  Possible mobile version  
 
 ---
 
-## 👨‍💻 About the Developer
+## About the Me
 
 Built by **Quinton Sterling** —  
 Student athlete, data/tech builder, and future MLB analytics engineer.  
@@ -150,7 +150,6 @@ Focused on creating clean, production-quality projects that blend:
 
 ---
 
-## ⭐ If you like this project…
-Give the repo a **star** on GitHub 🌟  
-It helps recruiters see it!
+## If you like this project…
+Give the repo a star on GitHub :)  
 
